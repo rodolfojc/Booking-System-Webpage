@@ -1,0 +1,240 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    
+    background-image:url("../img/barbers4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+	
+	
+}
+
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: #994d00;
+	background: #ffd480;
+	text-align: center;
+	border: 1px solid #ffd480;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+.text-output {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: #994d00;
+	background: #ffd480;
+	text-align: center;
+	border: 1px solid #ffd480;
+	border-bottom: 10px solid #994d00;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+form, .content {
+    color: #994d00;
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: #ffefcc;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 18px;
+	color: #994d00;
+	background: #ffd480;
+	border: none;
+	border-radius: 5px;
+    width: 100%;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.config {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th {
+    text-align: center;
+    padding: 12px;
+    background-color: #ffd480;
+    color: white;
+}
+td {
+    text-align: center;
+    padding: 12px;
+}
+
+tr:nth-child(even)
+{background-color: #ffefcc}
+
+tr:nth-child(odd)
+{background-color: white}
+
+.li1 {
+        float: left;
+    }
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #ffd480;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #86592d;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.input-group select {
+    height: 40px;
+    width: 97%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.capbox {
+	background-color: #994d00;
+    width: 85%;
+    text-align: center;
+    align-self: center;
+	border: #ffd480 0px solid;
+	border-width: 0px 12px 0px 0px;
+	display: inline-block;
+	*display: inline; zoom: 1; /* FOR IE7-8 */
+	padding: 8px 40px 8px 8px;
+	}
+
+.capbox-inner {
+	font: bold 11px arial, sans-serif;
+	color: #000000;
+	background-color: #ffd480;
+	margin: 5px auto 0px auto;
+	padding: 3px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+#CaptchaDiv {
+	font: bold 17px verdana, arial, sans-serif;
+	font-style: italic;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+#CaptchaInput { margin: 1px 0px 1px 0px; width: 135px; }
+
+#message {
+  display:none;
+  background: #ffefcc;
+  color: #994d00;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: #994d00;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    padding: 10px;
+    text-align: center;
+	font-size: 18px;
+	color: #994d00;
+	background: #ffd480;
+	border: none;
+	border-radius: 5px;
+    width: 96%;
+}
