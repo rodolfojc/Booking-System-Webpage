@@ -1,10 +1,7 @@
 
-WEB DEVELOPMENT
+WEBPAGE BOOKING SYSTEM
 
-The Index.php is saved in folder Index, the webpage
-has to start from Index.php file located there, I could not fix 
-a problem with paths if I put Index.php out of the folder.
-So I left it in Index folder and the page works perfectly.
+The Index.php is saved in folder "Index"
 
 
 DATABASE DATA
