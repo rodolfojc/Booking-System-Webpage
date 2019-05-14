@@ -1,4 +1,4 @@
-# Web App - Booking Management System - For Barbers
+# Web App - Booking Management System - Use case - Barbers
 
 ## Home Page
 
