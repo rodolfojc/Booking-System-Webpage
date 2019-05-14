@@ -6,7 +6,7 @@
 <a href="https://github.com/rodolfojc/Booking-System-Webpage/blob/master/Screenshots/Homepage.PNG"><img src="https://github.com/rodolfojc/Booking-System-Webpage/blob/master/Screenshots/Homepage.PNG" title="home" alt="home" ></a>
 </div>
 
-## Register Page
+## Registration Page
 
 <div align="center">
 <a href="https://github.com/rodolfojc/Booking-System-Webpage/blob/master/Screenshots/Registration.PNG"><img src="https://github.com/rodolfojc/Booking-System-Webpage/blob/master/Screenshots/Registration.PNG" title="register" alt="register" ></a>
